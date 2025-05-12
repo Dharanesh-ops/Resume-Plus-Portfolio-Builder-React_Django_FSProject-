@@ -121,44 +121,6 @@ This project is a Full Stack application built using **React.js** for the fronte
 
 ---
 
-## Deployment (Optional)
-
-### Backend Deployment (Heroku)
-
-1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and log in:
-
-    bash
-    heroku login
-    ```
-
-2. Create and push the app to Heroku:
-
-    bash
-    heroku create
-    git push heroku master
-    ```
-
-3. Set up the database:
-
-    bash
-    heroku addons:create heroku-postgresql:hobby-dev
-    heroku run python manage.py migrate
-    ```
-
-4. Create a superuser:
-
-    bash
-    heroku run python manage.py createsuperuser
-    ```
-
-5. Open the app:
-
-    bash
-    heroku open
-    ```
-
----
-
 ## Requirements
 
 ### Backend (`requirements.txt`)
