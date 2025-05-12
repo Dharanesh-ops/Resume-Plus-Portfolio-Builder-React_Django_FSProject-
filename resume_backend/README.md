@@ -64,41 +64,7 @@ PUT /api/resumes/{id}/ - Update a resume by ID
 
 DELETE /api/resumes/{id}/ - Delete a resume by ID
 
-Deployment (Optional)
-To deploy the app on Heroku:
 
-Install Heroku CLI and login:
-
-bash
-Copy
-Edit
-heroku login
-Create and push the app to Heroku:
-
-bash
-Copy
-Edit
-heroku create
-git push heroku master
-Set up the database:
-
-bash
-Copy
-Edit
-heroku addons:create heroku-postgresql:hobby-dev
-heroku run python manage.py migrate
-Create a superuser (optional):
-
-bash
-Copy
-Edit
-heroku run python manage.py createsuperuser
-Open the app:
-
-bash
-Copy
-Edit
-heroku open
 ####Requirements (requirements.txt)
 ini
 Copy
