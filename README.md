@@ -179,7 +179,6 @@ pip freeze > requirements.txt
   "axios": "^0.21.1"
 }
 
-
 This README.md file is a combined guide for setting up both the frontend and backend parts of your project. It includes setup instructions, required dependencies, and deployment details for both React and Django.
 
 
